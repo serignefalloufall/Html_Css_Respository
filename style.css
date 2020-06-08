@@ -1,87 +1,82 @@
- *{
-    margin: 0;
-    padding: 0;
+*{
+    box-sizing: border-box;
+    color: #edf0f1;
+    font-family: "Monserrat",sans-serif;
 }
-.wrapper{
-    width: 1170px;
-    margin: auto;
-}
-header{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(image/myimage.png);
+
+body{
+    
+    background: linear-gradient(rgba(68, 76, 87, 0.6),rgba(0,0,0,0.6)),url(image/img.png);
     height: 100vh;
     -webkit-background-size:cover;
     background-size:cover ;
     background-position: center center;
     position: relative;
-
 }
-.nav-area{
-    float: right;
+
+
+li,a{
+   
+    font-weight: 500;
+    font-size: 16px;
+   
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 40px 30px;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+.nav_links{
     list-style: none;
-    margin-top: 3%;
 }
-.nav-area li{
+.nav_links li{
     display: inline-block;
-    
-   
-}
-.nav-area li a{
-    color: #fff;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-family: poppins;
-    font-size: 16px;
-    float:right;
-    
-
-}
-.nav-area li a:hover{
-    background: #fff;
-    color: #333;
-
+    padding: 0px 20px;
 }
 
-.logo h3{
-    color: #fff;
-    text-decoration: none; 
-    font-family: poppins;
-    font-size: 16px;
-    margin-top: 3%;
-    float: left;
+.nav_links li a{
+    transition: all 0.3s ease 0s;
 }
-.welcome-text{
-    position: absolute;
-    width: 600px;
-    height: 300px;
-    margin: 20% 30%;
+
+.nav_links li a:hover{
+    transition: all 0.3s ease 0s;
+    color: #0088a9;
+}
+.ligne{
+    display: flex;
+    margin: 5;
+}
+.text{
+    margin: 0;
     text-align: center;
-   
-}
+    padding-top: 100px;
 
-.welcome-text h1{
-   text-align: center;
-   color: #fff;
-   font-size: 40px;
 }
-
-.welcome-text a{
-    border: 1px solid #fff;
-    padding: 10px 25px;
-    text-decoration: none;
-    font-size: 14px;
-    margin-top: 20px;
+.text li{
     display: inline-block;
-    color: #fff;
+    padding: 0px 80px;
+    padding-top: 60px;
+    
+}
+.text li fa{
+    background-color: rgb(4, 126, 89);
+}
 
- }
- .welcome-text a:hover{
-    background: #fff;
-    color: #fff;
+.text button{
+  
+    padding: 9px 25px;
+    background-color: rgb(4, 126, 89);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
 
-
- }
-
- .welcome-text hr{
-    border: 5px solid white;
-    margin-top: 0%;
+button:hover{
+    background-color: rgb(4, 126, 0.8);
 }
