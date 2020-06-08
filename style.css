@@ -60,12 +60,30 @@ header{
 
 }
 
+.icon{
+    border-right: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.list{
+    border-right: 0px;
+    display: flex;
+  justify-content: space-around;
+}
+
+.sous_list{
+    border-right: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
 .icon li{
     padding-top: 200px;
     display: inline-block;
     padding: 5px 62px;
     color: rgb(4, 126, 89); 
-    flex-direction: column;
+    
     
 }
 
@@ -78,14 +96,14 @@ header{
 }
 .sous_list li{
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 15px;
    
     
 }
 
 .text button{
   
-    padding: 9px 25px;
+    padding: 15px 40px;
     background-color: rgb(4, 126, 89);
     border: none;
     border-radius: 50px;
@@ -93,5 +111,5 @@ header{
 }
 
 button:hover{
-    background-color: rgb(4, 126, 0.8);
+    background-color: rgb(67, 85, 67);
 }
