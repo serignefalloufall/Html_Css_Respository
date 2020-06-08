@@ -56,25 +56,31 @@ header{
 .text{
     margin: 0;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
 
 }
+
+.icon li{
+    padding-top: 200px;
+    display: inline-block;
+    padding: 5px 62px;
+    color: rgb(4, 126, 89); 
+    flex-direction: column;
+    
+}
+
 .list li{
+    display: inline-block;
+    padding: 0px 20px;
+    flex-direction: column;
+   
+    
+}
+.sous_list li{
     display: inline-block;
     padding: 0px 20px;
    
     
-}
-
-.icon li{
-    display: inline-block;
-    padding: 0px 80px;
-   
-    
-}
-
-.text li fa{
-    background-color: rgb(4, 126, 89);
 }
 
 .text button{
