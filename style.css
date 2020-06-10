@@ -1,11 +1,9 @@
 *{
-    box-sizing: border-box;
     color: #edf0f1;
     font-family: "Monserrat",sans-serif;
 }
 
 body{
-    
     background: linear-gradient(rgba(68, 76, 87, 0.6),rgba(0,0,0,0.6)),url(image/img.png);
     height: 100vh;
     -webkit-background-size:cover;
@@ -16,22 +14,19 @@ body{
 
 
 li,a{
-   
     font-weight: 500;
     font-size: 16px;
-   
     text-decoration: none;
 }
 header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 40px 30px;
+    padding: 10px 50px 20px;
 }
 .logo{
     cursor: pointer;
-    margin-right: auto;
-    
+    margin-right: auto;     
 }
 .nav_links{
     list-style: none;
@@ -50,66 +45,41 @@ header{
     color: #0088a9;
 }
 .ligne{
-    display: flex;
-    margin: 5;
+    width:95%
+
 }
+
 .text{
+   
     margin: 0;
     text-align: center;
-    padding-top: 80px;
-
+    padding: 100px 50px 20px;/*100px ecart en haut*/   
 }
 
-.icon{
-    border-right: 0px;
+.content{
     display: flex;
     justify-content: space-around;
+    text-align: center;   
 }
-.list{
-    border-right: 0px;
-    display: flex;
-  justify-content: space-around;
+.content span {
+    color: rgb(4, 126, 89);   
+    font-size: 30px;
 }
-
-.sous_list{
-    border-right: 0px;
-    display: flex;
-    justify-content: space-around;
+.mylignevertical{
+    border-right: 2px solid white;
 }
 
-
-.icon li{
-    padding-top: 200px;
-    display: inline-block;
-    padding: 5px 62px;
-    color: rgb(4, 126, 89); 
-    
-    
-}
-
-.list li{
-    display: inline-block;
-    padding: 0px 20px;
-    flex-direction: column;
-   
-    
-}
-.sous_list li{
-    display: inline-block;
-    padding: 0px 15px;
-   
-    
-}
-
-.text button{
-  
-    padding: 15px 40px;
-    background-color: rgb(4, 126, 89);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-}
-
-button:hover{
-    background-color: rgb(67, 85, 67);
+.btn{
+   position: absolute;
+   top: 80%;
+   left: 42%;
+   background-color: rgb(18, 18, 19);
+   width: 210px;
+   height: 50px;
+   font-size: 15px;   
+   cursor: pointer;
+   background-color: transparent;
+   border: 3px solid #0d925f;
+   color: #0d925f;
+   border-radius: 40px;
 }
